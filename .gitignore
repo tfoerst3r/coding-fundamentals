@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/env/
+/site/
+*.orig
+*.html
+/docs/images/uml/out/
+.DS_Store
+
+# build folder
+public/
+site/
+
+# temporary files
+*.sw?
+

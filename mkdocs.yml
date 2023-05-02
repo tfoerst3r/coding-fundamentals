@@ -1,0 +1,35 @@
+site_name: Documentation
+docs_dir: docs
+
+theme:
+  font: false
+  name: 'material'
+  sticky-navigation: true
+  custom_dir: custom_theme
+  logo: "https://hifis.net/assets/img/HIFIS_Logo_Inverted_cropped.svg"
+
+extra:
+  homepage: https://hifis.net  # sets the link of the logo on top
+  generator: false             # disable notics 'Made with Material for MkDocs
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+
+nav:
+  - index.md
+  - about.md
+

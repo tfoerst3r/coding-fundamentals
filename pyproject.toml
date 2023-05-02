@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "workshop"
+version = "0.1.0"
+description = ""
+authors = ["Foerster, T. <tfoerst3r.development@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+mkdocs-material = "^9.1.9"
+reuse = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
