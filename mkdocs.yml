@@ -31,5 +31,11 @@ markdown_extensions:
 
 nav:
   - index.md
+  - Python:
+    - episodes/python-poetry.md
+    - episodes/python-pandas.md
+    - episodes/python-matplotlib.md
   - about.md
+
+      
 
